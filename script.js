@@ -6,10 +6,7 @@ var tts_eng = new Audio('./tts_eng.mp3');
 var eng_playing = false;
 var hin_playing = false;
 
-setTimeout(() => {
-    sound_eng.play();
-}, 1000);
-
+sound_eng.play();
 
 function change_language() {
     lang = lang == 'eng' ? 'hin' : 'eng';
